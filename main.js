@@ -1,6 +1,6 @@
 function joke(){
     console.log("called")
-    fetch("http://localhost:9000/getJokes", {
+    fetch("https://jokesapp.netlify.com/.netlify/functions/getjokes", {
       "method": "GET",
      
     
