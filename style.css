@@ -1,0 +1,32 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+  }
+  .joke{
+    height:50px;
+    margin:10px;
+    max-width:80%;
+  }
+  
+  button{
+    margin:20px;
+    justify-self:flex-start;
+    padding:25px 22px;
+    border:none;
+    background:#62F7B2;
+    color:#435459;
+    cursor:pointer;
+    transition:all 0.2s;
+  }
+  button:hover  {
+    box-shadow:2px 2px 10px  grey
+  }
+  button:focus{
+     outline:none;
+    
+  }  
+  
+  
